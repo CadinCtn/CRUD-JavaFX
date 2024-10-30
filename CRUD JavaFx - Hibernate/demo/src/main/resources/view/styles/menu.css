@@ -1,0 +1,17 @@
+.background_bar{
+  -fx-background-color: rgb(0, 94, 153);   
+}
+
+/* styles.css */
+
+.btn_menu {
+  -fx-pref-width: 150px;
+  -fx-pref-height: 50px;
+  -fx-border-radius: 10px;
+  -fx-border-color: #03045e;
+  -fx-border-width: 1px;
+  -fx-background-radius: 10px; /* Para garantir que o background siga a borda */
+  -fx-background-color: transparent; /* Necessário para manter o fundo transparente */
+}
+
+
