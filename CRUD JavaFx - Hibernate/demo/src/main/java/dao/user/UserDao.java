@@ -18,6 +18,7 @@ public class UserDao extends GenericDao<User> {
         this.simpleEntityManager = simpleEntityManager;
     }
 
+
     //Função para efetuar login
     public User login(String login, String password) throws NoResultException {
         try{
